@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="@string/cartoon_wars">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/miSouthPark"
+                    android:icon="@drawable/ic_south_park"
+                    android:title="South Park" />
+                <item
+                    android:id="@+id/miFamilyGuy"
+                    android:icon="@drawable/ic_family_guy"
+                    android:title="Family Guy" />
+            </group>
+        </menu>
+    </item>
+    <item android:title="@string/simpsorama">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/miTheSimpsons"
+                    android:icon="@drawable/ic_simpsons"
+                    android:title="The Simpsons" />
+                <item
+                    android:id="@+id/miFuturama"
+                    android:icon="@drawable/ic_futurama"
+                    android:title="Futurama" />
+            </group>
+        </menu>
+    </item>
+
+    <item android:title="@string/simpsorama">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/miTheSimpsons2"
+                    android:icon="@drawable/ic_simpsons"
+                    android:title="The Simpsons" />
+                <item
+                    android:id="@+id/miFuturama2"
+                    android:icon="@drawable/ic_futurama"
+                    android:title="Futurama" />
+                <item
+                    android:id="@+id/miFuturama3"
+                    android:icon="@drawable/ic_futurama"
+                    android:title="Futurama" />
+                <item
+                    android:id="@+id/miFuturama4"
+                    android:icon="@drawable/ic_futurama"
+                    android:title="Futurama" />
+            </group>
+        </menu>
+    </item>
+
+</menu>
